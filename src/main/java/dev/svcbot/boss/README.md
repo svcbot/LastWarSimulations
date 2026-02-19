@@ -6,7 +6,7 @@ In order to simulate golden zombies following facts are needed:
 
 * Killing a golden zombie costs `10 energy`. The reward is always `10 medals` and `268k gold`
 * After killing a golden zombie there is a `10 % chance to spawn a boss` zombie. Boss level is random, but seems to depend on HQ and combat power.
-* If your boss is killed, there is a guarantied intel reward of `190 + boss level * 2 medals` and `0.5M + boss level / 100 M gold`. E.g. lvl 100 boss will produce 390 medals and 1.5 M gold.
+* If your boss is killed, there is a guarantied intel reward of `20 energy`, `190 + boss level * 2 medals` and `0.5M + boss level / 100 M gold`. E.g. lvl 100 boss will produce 390 medals and 1.5 M gold.
 * Killing a boss as a rally initiator always gives `80 medals` and `0.5M + boss level / 100 M gold`.
 * Boss kill assist always gives `40 medals` and `0.332 M + boss level / 5 * 0.03 gold`.
 
