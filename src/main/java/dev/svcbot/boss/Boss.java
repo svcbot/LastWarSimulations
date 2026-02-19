@@ -1,10 +1,10 @@
 package dev.svcbot.boss;
 
 class Boss {
-    int level;
+    int rank; // Actual shown boss level increases in 5 increment. Rank is level/5
 
-    public Boss(int level) {
-        this.level = level;
+    public Boss(int rank) {
+        this.rank = rank;
     }
 
     int getAssistMedalReward() {
@@ -12,7 +12,7 @@ class Boss {
     }
 
     double getAssistGoldReward() {
-        return 0.332 + level * 0.03;
+        return 0.332 + rank * 0.03;
     }
 
     int getSlainMedalsReward() {
@@ -20,14 +20,14 @@ class Boss {
     }
 
     double getSlainGoldReward() {
-        return 0.5 + level * 0.05;
+        return 0.5 + rank * 0.05;
     }
 
     int getIntelMedalsReward() {
-        return 190 + level * 10;
+        return 190 + rank * 10;
     }
 
     double getIntelGoldReward() {
-        return 0.5 + level * 0.05;
+        return 0.5 + rank * 0.05;
     }
 }
