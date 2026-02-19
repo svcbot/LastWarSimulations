@@ -12,7 +12,7 @@ abstract class BossStrategy extends Strategy<BossStrategyResult> {
     }
 
     public void attackGoldenZombie() {
-        energy =- 10;
+        energy -= 10;
         result.medals += 10;
         result.goldInMillions += 0.268;
     }
